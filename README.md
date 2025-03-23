@@ -38,7 +38,7 @@ This extension automatically adds quotes `''` around JSX and TSX prop values whe
 
 1.  Open Visual Studio Code.
 2.  Go to the Extensions view (Ctrl+Shift+X or Cmd+Shift+X).
-3.  Search for "AutoQuotes JSX".
+3.  Search for "Auto Quotes JSX".
 4.  Click "Install".
 5.  Reload VS Code.
 
