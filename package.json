@@ -2,7 +2,7 @@
   "name": "auto-quotes-jsx",
   "displayName": "Auto Quotes JSX",
   "description": "Automatically adds quotes to JSX prop values.",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "publisher": "ziishaned",
   "license": "MIT",
   "icon": "assets/logo.png",
