@@ -1,4 +1,4 @@
-# Auto Quotes JSX for VS Code
+# Auto Quotes JSX
 
 <p align="center">
   <img src="assets/logo.png" alt="Logo" width="227px" height="178px">
