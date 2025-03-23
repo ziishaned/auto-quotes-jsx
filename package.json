@@ -1,0 +1,68 @@
+{
+  "name": "auto-quotes-jsx",
+  "displayName": "Auto Quotes JSX",
+  "description": "Automatically adds quotes to JSX prop values.",
+  "version": "0.0.1",
+  "publisher": "ziishaned",
+  "license": "MIT",
+  "icon": "assets/logo.png",
+  "preview": true,
+  "galleryBanner": {
+    "theme": "dark",
+    "color": "#052529"
+  },
+  "author": {
+    "name": "Zeeshan Ahmad",
+    "email": "ziishaned@gmail.com",
+    "url": "https://github.com/ziishaned"
+  },
+  "homepage": "https://github.com/ziishaned/auto-quotes-jsx",
+  "bugs": {
+    "email": "ziishaned@gmail.com",
+    "url": "https://github.com/ziishaned/auto-quotes-jsx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziishaned/auto-quotes-jsx"
+  },
+  "keywords": [
+    "jsx",
+    "tsx",
+    "react",
+    "next.js"
+  ],
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact"
+  ],
+  "main": "./out/src/extension.js",
+  "contributes": {
+    "commands": []
+  },
+  "scripts": {
+    "vscode:prepublish": "pnpm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "pnpm run compile && pnpm run lint",
+    "lint": "eslint src test",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.65.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "eslint": "^9.21.0",
+    "typescript": "^5.7.3",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
